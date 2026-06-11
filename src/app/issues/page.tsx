@@ -117,7 +117,7 @@ export default function IssuesPage() {
               <span className="text-gold-300">Clermont</span>.
             </h1>
             <p className="mt-5 max-w-2xl text-lg text-cream-50/85 leading-relaxed">
-              Six priorities, one promise: keep Clermont the kind of place we're
+              Six priorities, one promise: keep Clermont the kind of place we&apos;re
               proud to call home. Tap any priority below to see the details.
             </p>
           </Reveal>

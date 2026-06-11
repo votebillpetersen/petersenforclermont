@@ -171,8 +171,8 @@ export default function Home() {
               style={{ animationDelay: "400ms" }}
             >
               Clermont is worth protecting. Two years ago you trusted me with
-              your voice. I've used it for you every single vote. On November
-              3rd, I'm asking you to send me back.
+              your voice. I&apos;ve used it for you every single vote. On November
+              3rd, I&apos;m asking you to send me back.
             </p>
 
             {/* 6. Buttons — 500 ms */}
@@ -223,7 +223,7 @@ export default function Home() {
           </Reveal>
           <Reveal delay={80}>
             <p className="mx-auto mt-6 max-w-2xl font-display italic text-base md:text-lg text-cream-50/80">
-              These are just a few of the votes I've cast for the people of
+              These are just a few of the votes I&apos;ve cast for the people of
               Clermont. Click any item to learn more.
             </p>
           </Reveal>
@@ -253,8 +253,8 @@ export default function Home() {
           <div className="lg:col-span-7">
             <Reveal delay={120}>
               <p className="text-lg text-navy-700 leading-relaxed">
-                Clermont is one of Central Florida's most loved hometowns. I
-                intend to keep it that way. I've spent my time on this council
+                Clermont is one of Central Florida&apos;s most loved hometowns. I
+                intend to keep it that way. I&apos;ve spent my time on this council
                 fighting for the neighborhoods, families, and quality of life
                 that make this city worth living in.
               </p>

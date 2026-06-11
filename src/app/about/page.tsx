@@ -270,7 +270,7 @@ export default function AboutPage() {
                 With a background in healthcare, business management, and
                 community service, I bring a calm, practical approach to city
                 government. I listen first, ask the right questions, and make
-                the call that's best for the long-term health of the city.
+                the call that&apos;s best for the long-term health of the city.
               </p>
             </Reveal>
           </div>
@@ -279,7 +279,7 @@ export default function AboutPage() {
             <p className="mx-auto mt-10 md:mt-14 max-w-4xl text-center text-lg md:text-xl text-navy-700 leading-relaxed">
               On the council, I have earned a reputation as a steady,
               prepared, resident-first voice: one of the people you call when
-              something doesn't feel right in the neighborhood, and one of the
+              something doesn&apos;t feel right in the neighborhood, and one of the
               people who actually picks up.
             </p>
           </Reveal>
@@ -339,11 +339,11 @@ export default function AboutPage() {
                 I am married to my wife,{" "}
                 <span className="font-semibold text-navy-900">Audrey</span>.
                 Together we share a love for Clermont. The kind of love
-                that's measured in Saturday mornings at the park, neighborhood
+                that&apos;s measured in Saturday mornings at the park, neighborhood
                 dinners, and being there when it matters.
               </p>
               <p className="mt-3 text-navy-700 leading-relaxed">
-                For us, public service isn't an abstraction. It's keeping the
+                For us, public service isn&apos;t an abstraction. It&apos;s keeping the
                 city safe and welcoming for the families we see every day.
               </p>
             </div>
@@ -357,14 +357,14 @@ export default function AboutPage() {
                 Faith &amp; Community
               </h3>
               <p className="mt-3 text-navy-700 leading-relaxed">
-                Faith and community are at the center of my life. I'm an active
+                Faith and community are at the center of my life. I&apos;m an active
                 participant in my church and a regular supporter of local
                 charities, civic events, and nonprofit causes that strengthen
-                Clermont's social fabric.
+                Clermont&apos;s social fabric.
               </p>
               <p className="mt-3 text-navy-700 leading-relaxed">
-                For me, character, integrity, and respect for neighbors aren't
-                talking points. They're how I was raised and how I govern.
+                For me, character, integrity, and respect for neighbors aren&apos;t
+                talking points. They&apos;re how I was raised and how I govern.
               </p>
             </div>
           </Reveal>
@@ -414,16 +414,16 @@ export default function AboutPage() {
           <div className="lg:col-span-7">
             <Reveal>
               <div className="text-[11px] uppercase tracking-[0.22em] text-gold-300 font-semibold">
-                Why I'm Running
+                Why I&apos;m Running
               </div>
               <h2 className="mt-3 font-display text-3xl md:text-4xl text-balance text-cream-50">
-                Because there's more work to do, and it's worth doing well.
+                Because there&apos;s more work to do, and it&apos;s worth doing well.
               </h2>
               <p className="mt-5 text-lg text-cream-50/85 max-w-2xl leading-relaxed">
                 The decisions we make in the next few years, on public safety,
                 downtown, how we spend taxpayer dollars, and what gets approved
                 at the council table, will shape Clermont for a generation.
-                I'm running for re-election to keep that work in steady hands,
+                I&apos;m running for re-election to keep that work in steady hands,
                 to keep listening to residents, and to keep protecting the
                 quality of life that brought us all here.
               </p>

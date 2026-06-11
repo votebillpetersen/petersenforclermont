@@ -54,7 +54,7 @@ export default function DonatePage() {
               .
             </h1>
             <p className="mt-5 max-w-2xl text-lg text-cream-50/85 leading-relaxed">
-              Local campaigns are powered by neighbors. Whether it's $25 or
+              Local campaigns are powered by neighbors. Whether it&apos;s $25 or
               $500, your contribution helps us reach more Clermont voters before
               November 3, 2026.
             </p>

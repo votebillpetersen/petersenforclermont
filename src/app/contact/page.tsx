@@ -45,7 +45,7 @@ export default function ContactPage() {
             </h1>
             <p className="mt-5 max-w-2xl text-lg text-cream-50/85 leading-relaxed">
               Questions, story ideas, event invitations, or just want to say
-              hello? We'd love to hear from you.
+              hello? We&apos;d love to hear from you.
             </p>
           </Reveal>
         </div>
@@ -93,7 +93,7 @@ export default function ContactPage() {
                 </div>
               </dl>
               <div className="mt-6 rounded-lg bg-cream-100 p-4 text-xs text-navy-700 leading-relaxed">
-                For media inquiries, please include "Press" in the subject line.
+                For media inquiries, please include &quot;Press&quot; in the subject line.
                 We respond to journalists as quickly as possible.
               </div>
             </div>

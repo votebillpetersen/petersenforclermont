@@ -109,7 +109,7 @@ export default function EndorsementsPage() {
               In Their Words
             </div>
             <h2 className="mt-3 font-display text-3xl md:text-4xl text-navy-900">
-              Why they're with Bill.
+              Why they&apos;re with Bill.
             </h2>
           </Reveal>
           <div className="mt-10 grid md:grid-cols-3 gap-6">
