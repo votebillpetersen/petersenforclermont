@@ -35,6 +35,9 @@ export const metadata: Metadata = {
 };
 
 const LAKE_SOE_URL = "https://www.lakevotes.gov";
+const SOE_VBM_URL = "https://www.lakevotes.gov/VoteByMail";
+const SOE_VOTER_SEARCH_URL = "https://www.lakevotes.gov/VoterSearch";
+const SOE_EARLY_VOTING_URL = "https://www.lakevotes.gov/EarlyVoting";
 
 const keyDates = [
   {
@@ -42,7 +45,7 @@ const keyDates = [
     date: "Friday, July 10, 2026",
     detail:
       "Lake County begins mailing Vote-by-Mail ballots to every voter with an active request on file. Confirm your request is on file with the Supervisor of Elections.",
-    cta: { href: LAKE_SOE_URL, label: "Check or update my request" },
+    cta: { href: SOE_VBM_URL, label: "Check or update my request" },
   },
   {
     label: "Voter Registration Deadline",
@@ -53,24 +56,31 @@ const keyDates = [
   },
   {
     label: "Mail Ballot Request Deadline",
-    date: "Thursday, August 6, 2026",
+    date: "Thursday, August 6, 2026 · by 5:00 PM",
     detail:
       "Mail ballot requests must be received by the Lake County Supervisor of Elections by 5:00 PM. Request earlier if you can so your ballot arrives with time to spare.",
-    cta: { href: LAKE_SOE_URL, label: "Request a mail ballot" },
+    cta: { href: SOE_VBM_URL, label: "Request a mail ballot" },
   },
   {
-    label: "Early Voting",
-    date: "August 8 – 15, 2026",
+    label: "Early Voting Begins",
+    date: "Saturday, August 8, 2026 · 10 AM – 6 PM daily",
     detail:
-      "In-person early voting at designated Lake County sites, 10:00 AM – 6:00 PM each day. No waiting in line on Election Day.",
-    cta: { href: LAKE_SOE_URL, label: "Find an early voting site" },
+      "In-person early voting opens at designated Lake County sites and runs through August 15. Polls are open 10:00 AM – 6:00 PM every day during the early voting window.",
+    cta: { href: SOE_EARLY_VOTING_URL, label: "Check early voting info" },
+  },
+  {
+    label: "Early Voting Ends",
+    date: "Saturday, August 15, 2026",
+    detail:
+      "Last day of in-person early voting in Lake County. After this, the next opportunity to vote in person is your assigned precinct on Election Day.",
+    cta: { href: SOE_EARLY_VOTING_URL, label: "Check early voting info" },
   },
   {
     label: "Primary Election Day",
-    date: "Tuesday, August 18, 2026",
+    date: "Tuesday, August 18, 2026 · 7 AM – 7 PM",
     detail:
       "Polls are open 7:00 AM – 7:00 PM. Vote at your assigned precinct. Bring a valid Florida photo ID with a signature.",
-    cta: { href: LAKE_SOE_URL, label: "Find my precinct" },
+    cta: { href: SOE_VOTER_SEARCH_URL, label: "Find your precinct" },
   },
 ];
 
@@ -116,7 +126,7 @@ export default function VotePage() {
             </p>
             <div className="mt-7 flex flex-wrap items-center gap-3">
               <a
-                href={LAKE_SOE_URL}
+                href={SOE_VBM_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-gold-400 px-7 py-3 text-sm font-semibold text-navy-900 shadow-card hover:bg-gold-300 hover:-translate-y-0.5 transition"
@@ -125,7 +135,7 @@ export default function VotePage() {
                 <span aria-hidden>→</span>
               </a>
               <a
-                href={LAKE_SOE_URL}
+                href={SOE_VOTER_SEARCH_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full border border-cream-50/30 px-7 py-3 text-sm font-semibold text-cream-50 hover:border-gold-400 hover:text-gold-300 transition"
@@ -147,14 +157,14 @@ export default function VotePage() {
             Mark your calendar.
           </h2>
         </Reveal>
-        <div className="mt-10 grid gap-4 md:gap-5 sm:grid-cols-2 lg:grid-cols-5">
+        <div className="mt-10 grid gap-5 md:gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {keyDates.map((d, i) => (
-            <Reveal key={d.label} delay={i * 80}>
-              <div className="h-full rounded-2xl bg-white p-6 shadow-card hover:shadow-card-hover transition flex flex-col">
+            <Reveal key={d.label} delay={i * 70}>
+              <div className="h-full rounded-2xl bg-white p-7 shadow-card hover:shadow-card-hover transition flex flex-col">
                 <div className="text-[11px] uppercase tracking-[0.22em] text-gold-600 font-semibold">
                   {d.label}
                 </div>
-                <div className="mt-2 font-display text-xl text-navy-900">
+                <div className="mt-2 font-display text-2xl text-navy-900">
                   {d.date}
                 </div>
                 <p className="mt-3 text-navy-700 leading-relaxed text-sm flex-1">
@@ -224,7 +234,7 @@ export default function VotePage() {
                 registration status.
               </p>
               <a
-                href={LAKE_SOE_URL}
+                href={SOE_VOTER_SEARCH_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-6 inline-flex items-center gap-2 rounded-full bg-gold-400 px-6 py-3 text-sm font-semibold text-navy-900 hover:bg-gold-300 hover:-translate-y-0.5 transition"
