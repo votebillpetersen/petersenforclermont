@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: #fbf8f1;
+    --fg: #0a2540;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    color: var(--fg);
+    background: var(--bg);
+    font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, "Times New Roman", serif;
+    letter-spacing: -0.015em;
+    /* color is intentionally NOT set here — headings inherit from their
+       parent section. A site-wide rule here overrides text-cream-50 on
+       dark sections and makes headings invisible. */
+  }
+  ::selection {
+    background: #e6b948;
+    color: #0a2540;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .container-narrow {
+    @apply mx-auto max-w-5xl px-6;
+  }
+  .container-wide {
+    @apply mx-auto max-w-7xl px-6;
+  }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+  }
+  .reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .bg-grain {
+    background-image:
+      radial-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px),
+      linear-gradient(135deg, #0a2540 0%, #13315c 60%, #1e365a 100%);
+    background-size: 20px 20px, 100% 100%;
+  }
+
+  .underline-gold {
+    background-image: linear-gradient(transparent 60%, rgba(230, 185, 72, 0.45) 60%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Hide every WebKit/Safari media-control pseudo-element on the hero background
+   video. Safari shows `::-webkit-media-controls-start-playback-button` (the
+   giant centered play button) whenever autoplay is blocked, and the `controls`
+   prop does NOT suppress it. We target every known shadow-DOM control
+   pseudo-element and force them off using every CSS lever available — display,
+   visibility, opacity, zero box size, off-screen position — so nothing can
+   render even if one selector is silently ignored. */
+.hero-bg-video,
+.hero-bg-video::-webkit-media-controls,
+.hero-bg-video::-webkit-media-controls-enclosure,
+.hero-bg-video::-webkit-media-controls-overlay-enclosure,
+.hero-bg-video::-webkit-media-controls-panel,
+.hero-bg-video::-webkit-media-controls-panel-container,
+.hero-bg-video::-webkit-media-controls-play-button,
+.hero-bg-video::-webkit-media-controls-overlay-play-button,
+.hero-bg-video::-webkit-media-controls-start-playback-button,
+.hero-bg-video::-webkit-media-controls-status-display,
+.hero-bg-video::-webkit-media-controls-timeline,
+.hero-bg-video::-webkit-media-controls-timeline-container,
+.hero-bg-video::-webkit-media-controls-current-time-display,
+.hero-bg-video::-webkit-media-controls-time-remaining-display,
+.hero-bg-video::-webkit-media-controls-mute-button,
+.hero-bg-video::-webkit-media-controls-volume-slider,
+.hero-bg-video::-webkit-media-controls-volume-slider-container,
+.hero-bg-video::-webkit-media-controls-volume-control-container,
+.hero-bg-video::-webkit-media-controls-toggle-closed-captions-button,
+.hero-bg-video::-webkit-media-controls-fullscreen-button,
+.hero-bg-video::-webkit-media-controls-rewind-button,
+.hero-bg-video::-webkit-media-controls-return-to-realtime-button,
+.hero-bg-video::-webkit-media-controls-seek-back-button,
+.hero-bg-video::-webkit-media-controls-seek-forward-button,
+.hero-bg-video::-internal-media-controls-overflow-button {
+  display: none !important;
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+/* Belt-and-suspenders: separately zero out the box and shove off-screen for
+   every control element. Some Safari versions still render a hit-box even when
+   `display:none` is set on the pseudo-element. */
+.hero-bg-video::-webkit-media-controls-start-playback-button,
+.hero-bg-video::-webkit-media-controls-overlay-play-button {
+  width: 0 !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  position: absolute !important;
+  left: -99999px !important;
+  top: -99999px !important;
+}
