@@ -14,19 +14,19 @@ const candidateSchema = {
   "@graph": [
     {
       "@type": "Person",
-      "@id": "https://votebillpetersen.com/#bill-petersen",
+      "@id": "https://www.petersenforclermont.com/#bill-petersen",
       name: "William \"Bill\" Petersen",
       alternateName: "Bill Petersen",
       jobTitle: "Clermont City Councilman, Seat 5",
       description:
         "Incumbent Clermont City Council member, Seat 5. Running for re-election November 3, 2026.",
-      image: "https://votebillpetersen.com/bill-petersen.png",
-      url: "https://votebillpetersen.com",
+      image: "https://www.petersenforclermont.com/bill-petersen.png",
+      url: "https://www.petersenforclermont.com",
       email: "VoteBillPetersen@gmail.com",
       affiliation: {
         "@type": "Organization",
         name: "Petersen for Clermont",
-        url: "https://votebillpetersen.com",
+        url: "https://www.petersenforclermont.com",
       },
       memberOf: {
         "@type": "GovernmentOrganization",
@@ -55,12 +55,12 @@ const candidateSchema = {
         },
       },
       candidate: {
-        "@id": "https://votebillpetersen.com/#bill-petersen",
+        "@id": "https://www.petersenforclermont.com/#bill-petersen",
       },
     },
     {
       "@type": "WebSite",
-      url: "https://votebillpetersen.com",
+      url: "https://www.petersenforclermont.com",
       name: "Re-Elect Bill Petersen for Clermont City Council Seat 5",
       publisher: {
         "@type": "Organization",

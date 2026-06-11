@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import { SITE_URL } from "@/lib/site";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -15,15 +16,8 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-/**
- * Canonical site origin. Used by Next.js to resolve `alternates.canonical`
- * and `openGraph.url` on every page. Update here once the production domain
- * is confirmed.
- */
-export const metadataBase = new URL("https://votebillpetersen.com");
-
 export const metadata: Metadata = {
-  metadataBase,
+  metadataBase: SITE_URL,
   title: {
     default:
       "Re-Elect Bill Petersen | Clermont City Council Seat 5 | November 3, 2026",

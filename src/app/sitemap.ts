@@ -1,12 +1,12 @@
 import type { MetadataRoute } from "next";
-import { metadataBase } from "./layout";
+import { SITE_URL } from "@/lib/site";
 
 /**
  * Sitemap covering every indexable route on the site. Next.js will serve
  * this at /sitemap.xml automatically.
  */
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = metadataBase.toString().replace(/\/$/, "");
+  const base = SITE_URL.toString().replace(/\/$/, "");
   const lastModified = new Date();
 
   const routes: Array<{
