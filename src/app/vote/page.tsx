@@ -34,37 +34,43 @@ export const metadata: Metadata = {
   },
 };
 
-const LAKE_SOE_URL =
-  "https://www.lakecountyfl.gov/offices/supervisor_of_elections/";
+const LAKE_SOE_URL = "https://www.lakevotes.gov";
 
 const keyDates = [
   {
-    label: "Mail Ballot Request Deadline",
-    date: "Date to be confirmed",
+    label: "Mail Ballots Mailed",
+    date: "Friday, July 10, 2026",
     detail:
-      "Florida law requires mail ballot requests to be received by the Lake County Supervisor of Elections no later than 5:00 PM on the 12th day before Election Day. Request early so your ballot arrives with time to spare.",
+      "Lake County begins mailing Vote-by-Mail ballots to every voter with an active request on file. Confirm your request is on file with the Supervisor of Elections.",
+    cta: { href: LAKE_SOE_URL, label: "Check or update my request" },
+  },
+  {
+    label: "Voter Registration Deadline",
+    date: "Monday, July 20, 2026",
+    detail:
+      "Last day to register to vote, change parties, or update your registration before the Primary Election. Register online at lakevotes.gov.",
+    cta: { href: LAKE_SOE_URL, label: "Register or update info" },
+  },
+  {
+    label: "Mail Ballot Request Deadline",
+    date: "Thursday, August 6, 2026",
+    detail:
+      "Mail ballot requests must be received by the Lake County Supervisor of Elections by 5:00 PM. Request earlier if you can so your ballot arrives with time to spare.",
     cta: { href: LAKE_SOE_URL, label: "Request a mail ballot" },
   },
   {
-    label: "Early Voting Begins",
-    date: "Date to be confirmed",
+    label: "Early Voting",
+    date: "August 8 – 15, 2026",
     detail:
-      "Lake County will announce the first day of early voting and the list of in-person early voting sites about 30 days before Election Day. We will post each Clermont-area site here as soon as it is published.",
-    cta: { href: LAKE_SOE_URL, label: "Check early voting info" },
-  },
-  {
-    label: "Early Voting Ends",
-    date: "Date to be confirmed",
-    detail:
-      "Early voting closes on the Saturday or Sunday before Election Day. Final dates and hours are set by the Lake County Supervisor of Elections and will be posted here once available.",
-    cta: { href: LAKE_SOE_URL, label: "Check early voting info" },
+      "In-person early voting at designated Lake County sites, 10:00 AM – 6:00 PM each day. No waiting in line on Election Day.",
+    cta: { href: LAKE_SOE_URL, label: "Find an early voting site" },
   },
   {
     label: "Primary Election Day",
     date: "Tuesday, August 18, 2026",
     detail:
       "Polls are open 7:00 AM – 7:00 PM. Vote at your assigned precinct. Bring a valid Florida photo ID with a signature.",
-    cta: { href: LAKE_SOE_URL, label: "Find your precinct" },
+    cta: { href: LAKE_SOE_URL, label: "Find my precinct" },
   },
 ];
 
@@ -77,7 +83,7 @@ const waysToVote = [
   {
     icon: "⏱",
     title: "Vote Early, in Person",
-    body: "Early voting lets you cast your ballot at any designated Lake County early voting site in the days leading up to the election. No waiting in lines on Election Day.",
+    body: "Vote at any designated Lake County early voting site from August 8 through August 15, 2026, 10:00 AM – 6:00 PM each day. No waiting in line on Election Day.",
   },
   {
     icon: "✓",
@@ -141,14 +147,14 @@ export default function VotePage() {
             Mark your calendar.
           </h2>
         </Reveal>
-        <div className="mt-10 grid gap-5 md:gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-10 grid gap-4 md:gap-5 sm:grid-cols-2 lg:grid-cols-5">
           {keyDates.map((d, i) => (
-            <Reveal key={d.label} delay={i * 100}>
-              <div className="h-full rounded-2xl bg-white p-7 shadow-card hover:shadow-card-hover transition flex flex-col">
+            <Reveal key={d.label} delay={i * 80}>
+              <div className="h-full rounded-2xl bg-white p-6 shadow-card hover:shadow-card-hover transition flex flex-col">
                 <div className="text-[11px] uppercase tracking-[0.22em] text-gold-600 font-semibold">
                   {d.label}
                 </div>
-                <div className="mt-2 font-display text-2xl text-navy-900">
+                <div className="mt-2 font-display text-xl text-navy-900">
                   {d.date}
                 </div>
                 <p className="mt-3 text-navy-700 leading-relaxed text-sm flex-1">
@@ -210,8 +216,11 @@ export default function VotePage() {
                 Find your polling place.
               </h3>
               <p className="mt-4 text-cream-50/85 leading-relaxed">
-                Enter your address on the Lake County Supervisor of Elections
-                website to see your assigned precinct, sample ballot, and
+                At lakevotes.gov, select{" "}
+                <span className="font-semibold text-cream-50">
+                  &ldquo;Voter Information&rdquo;
+                </span>{" "}
+                to look up your assigned precinct, sample ballot, and
                 registration status.
               </p>
               <a
