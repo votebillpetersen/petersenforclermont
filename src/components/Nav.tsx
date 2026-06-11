@@ -10,6 +10,7 @@ const links = [
   { href: "/about", label: "About Bill" },
   { href: "/record", label: "Record" },
   { href: "/issues", label: "Issues" },
+  { href: "/vote", label: "Vote" },
   { href: "/volunteer", label: "Volunteer" },
   { href: "/contact", label: "Contact" },
 ];

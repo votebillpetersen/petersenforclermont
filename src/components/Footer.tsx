@@ -13,6 +13,7 @@ const cols = [
   {
     heading: "Get Involved",
     links: [
+      { href: "/vote", label: "How to Vote" },
       { href: "/volunteer", label: "Volunteer" },
       { href: "/donate", label: "Donate" },
       { href: "/contact", label: "Contact" },
@@ -48,13 +49,13 @@ export default function Footer() {
             for Clermont, Florida City Council Seat 5 on
             <span className="text-gold-300 font-semibold">
               {" "}
-              November 3, 2026
+              August 18, 2026
             </span>
             .
           </p>
           <div className="mt-6 inline-flex items-center gap-2 rounded-full border border-gold-400/40 px-4 py-2 text-sm text-gold-200">
             <span className="h-2 w-2 rounded-full bg-gold-400 animate-pulse" />
-            Election Day · Nov 3, 2026
+            Primary Election Day · Aug 18, 2026
           </div>
         </div>
 
@@ -83,7 +84,7 @@ export default function Footer() {
         <div className="container-wide py-6 text-xs text-cream-50/80 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
           <p className="max-w-2xl leading-relaxed">
             Political advertisement paid for and approved by William “Bill” Petersen,
-            Republican, for Clermont City Council Seat 5.
+            for Clermont City Council Seat 5.
           </p>
           <p>© {new Date().getFullYear()} Petersen for Clermont. All rights reserved.</p>
         </div>

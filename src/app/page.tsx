@@ -19,7 +19,7 @@ const candidateSchema = {
       alternateName: "Bill Petersen",
       jobTitle: "Clermont City Councilman, Seat 5",
       description:
-        "Incumbent Clermont City Council member, Seat 5. Running for re-election November 3, 2026.",
+        "Incumbent Clermont City Council member, Seat 5. Running for re-election in the Primary Election on August 18, 2026.",
       image: "https://www.petersenforclermont.com/bill-petersen.png",
       url: "https://www.petersenforclermont.com",
       email: "VoteBillPetersen@gmail.com",
@@ -41,9 +41,9 @@ const candidateSchema = {
     },
     {
       "@type": "Election",
-      name: "2026 Clermont City Council Seat 5 Election",
-      startDate: "2026-11-03",
-      endDate: "2026-11-03",
+      name: "2026 Clermont City Council Seat 5 Primary Election",
+      startDate: "2026-08-18",
+      endDate: "2026-08-18",
       location: {
         "@type": "Place",
         name: "Clermont, Florida",
@@ -171,8 +171,8 @@ export default function Home() {
               style={{ animationDelay: "400ms" }}
             >
               Clermont is worth protecting. Two years ago you trusted me with
-              your voice. I&apos;ve used it for you every single vote. On November
-              3rd, I&apos;m asking you to send me back.
+              your voice. I&apos;ve used it for you every single vote. On August
+              18th, I&apos;m asking you to send me back.
             </p>
 
             {/* 6. Buttons — 500 ms */}

@@ -73,7 +73,7 @@ export default function VolunteerPage() {
             <p className="mt-5 max-w-2xl text-lg text-cream-50/85 leading-relaxed">
               Whether it&apos;s a yard sign, a few phone calls, or a Saturday morning
               knocking doors, every neighbor who pitches in moves us closer to
-              November 3.
+              Primary Election Day, August 18.
             </p>
           </Reveal>
         </div>
