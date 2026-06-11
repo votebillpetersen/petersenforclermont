@@ -35,9 +35,10 @@ export const metadata: Metadata = {
 };
 
 const LAKE_SOE_URL = "https://www.lakevotes.gov";
-const SOE_VBM_URL = "https://www.lakevotes.gov/VoteByMail";
-const SOE_VOTER_SEARCH_URL = "https://www.lakevotes.gov/VoterSearch";
-const SOE_EARLY_VOTING_URL = "https://www.lakevotes.gov/EarlyVoting";
+const SOE_VBM_URL = "https://www.lakevotes.gov/159";
+const SOE_VOTER_SEARCH_URL = "https://www.lakevotes.gov/162";
+const SOE_EARLY_VOTING_URL = "https://www.lakevotes.gov/164";
+const SOE_REGISTER_URL = "https://www.lakevotes.gov/205";
 
 const keyDates = [
   {
@@ -52,7 +53,7 @@ const keyDates = [
     date: "Monday, July 20, 2026",
     detail:
       "Last day to register to vote, change parties, or update your registration before the Primary Election. Register online at lakevotes.gov.",
-    cta: { href: LAKE_SOE_URL, label: "Register or update info" },
+    cta: { href: SOE_REGISTER_URL, label: "Register to vote" },
   },
   {
     label: "Mail Ballot Request Deadline",
