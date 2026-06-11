@@ -18,94 +18,24 @@ type Vote = {
 
 const votes: Vote[] = [
   {
-    id: 1,
+    id: 17,
     icon: "check",
     vote: "yes",
-    title: "Two Consecutive Tax Cuts",
-    date: "Jul–Sep 2025",
+    title: "Brought in a New City Attorney",
+    date: "Dec 10, 2024",
     result: "Passed 4-1",
     description:
-      "Every time I sit down to vote on the budget, I think about the families in this city who are working hard and watching every dollar. Two years in a row, I voted to lower your taxes. That money stays in your pocket, where it belongs.",
+      "One of my first votes on the council was to bring in new legal leadership. I voted to appoint Christian Waugh as City Attorney, and it was one of the best decisions this council has made. The change in legal strategy saved Clermont taxpayers millions of dollars in pending litigation. Getting the right people in the right seats matters. Good decisions start with good counsel.",
   },
   {
-    id: 2,
+    id: 18,
     icon: "check",
     vote: "yes",
-    title: "Kept Downtown Design Standards",
-    date: "Aug 26, 2025",
+    title: "Brought in a New City Manager",
+    date: "Dec 17, 2024",
     result: "Passed 4-1",
     description:
-      "Clermont has a character worth protecting, and good planning is how you protect it. I voted to bring in a firm that specializes in form-based codes so we have clear, community-driven design standards in place. I want what gets built here to look like it belongs here, and I want our historic buildings and streetscapes preserved for the people who come after us. That starts with having the right rules written before the decisions get made.",
-  },
-  {
-    id: 3,
-    icon: "check",
-    vote: "yes",
-    title: "Strengthened Landscaping Standards",
-    date: "Jul 29, 2025",
-    result: "Passed 4-1",
-    description:
-      "Clermont deserves to keep getting more beautiful, and I voted to make sure it does. I strengthened the landscaping and irrigation standards that anything new being built has to meet. More trees. More green space. Higher requirements. I raised the bar because your neighborhood, your park, your street should reflect the pride this community has in itself. Clermont isn't just maintaining its character. Under my watch, we're improving it.",
-  },
-  {
-    id: 4,
-    icon: "check",
-    vote: "no",
-    title: "Voted to Defeat 4-Year Term Extensions",
-    date: "Mar 2026",
-    result: "Failed 2-3 (Bill's no vote defeated it)",
-    description:
-      "Mayor Tim Murry proposed letting council members go four years between elections. I voted no. You should get to weigh in on who represents you every two years, not every four. I want to earn your vote on a regular basis. If I'm not doing my job, you should be able to say so sooner rather than later.",
-  },
-  {
-    id: 6,
-    icon: "check",
-    vote: "yes",
-    title: "ADU Affordability",
-    date: "Dec 2025–Jan 2026",
-    result: "Passed 5-0",
-    description:
-      "Housing costs are squeezing a lot of Clermont families. I voted to reduce the fees that make it harder to build small, affordable units on existing lots. This isn't about changing our neighborhoods. It's about making sure the people who love this city can afford to stay in it.",
-  },
-  {
-    id: 7,
-    icon: "check",
-    vote: "yes",
-    title: "Taxpayer Efficiency Review",
-    date: "May 13, 2025",
-    result: "Passed 5-0",
-    description:
-      "I voted yes on this without hesitation. If there's a way to spend your tax dollars more efficiently, I want to find it. You work too hard for your money to have it wasted by any level of government. Transparency and accountability aren't buzzwords to me. They're the job.",
-  },
-  {
-    id: 9,
-    icon: "x",
-    vote: "no",
-    title: "Blocked US 27 Development",
-    date: "Aug 26, 2025",
-    result: "Passed 3-2 (Bill opposed)",
-    description:
-      "Safety and design standards exist to protect you. Full stop. When a development came before us along US 27 that didn't meet those standards, I voted no. I'm not going to approve something that cuts corners just to move things along. You deserve better than that.",
-  },
-  {
-    id: 10,
-    icon: "x",
-    vote: "no",
-    title: "Denied 7-Eleven on Wellness Way",
-    date: "Mar 2026",
-    result: "Failed 0-5",
-    description:
-      "Every single council member voted no on this one, and I was proud to be part of it. A gas station and car wash on Wellness Way isn't what that corridor is supposed to be. The community showed up and made their voice heard. We listened. That's how it's supposed to work.",
-  },
-  {
-    id: 11,
-    icon: "check",
-    vote: "yes",
-    title: "Protected Lake Dot for Our Parks",
-    date: "Jun 24, 2025",
-    result: "Passed 4-1",
-    description:
-      "There was a push to sell a small city-owned parcel on Lake Dot. I voted to keep it and fold it into our parks planning instead. That land belongs to the people of Clermont. Once you sell lakefront property, you never get it back. I wasn't willing to let that happen on my watch.",
+      "Strong cities need strong leadership. I voted to bring Rick Van Wagner on as City Manager and see through a real transition plan, and today Rick serves as Clermont's permanent City Manager. The people of Clermont deserve a City Hall that runs well, responds quickly, and has steady, experienced hands at the wheel. That's exactly what we have now.",
   },
   {
     id: 12,
@@ -118,6 +48,76 @@ const votes: Vote[] = [
       "I voted to approve a use license with the Lake County Rowing Association to bring organized rowing to our lakefront. Clermont's lakes are one of our greatest assets. They should be alive with activity. This was about making sure our waterways are being used and enjoyed by the people who live here.",
   },
   {
+    id: 7,
+    icon: "check",
+    vote: "yes",
+    title: "Taxpayer Efficiency Review",
+    date: "May 13, 2025",
+    result: "Passed 5-0",
+    description:
+      "I voted yes on this without hesitation. If there's a way to spend your tax dollars more efficiently, I want to find it. You work too hard for your money to have it wasted by any level of government. Transparency and accountability aren't buzzwords to me. They're the job.",
+  },
+  {
+    id: 11,
+    icon: "check",
+    vote: "yes",
+    title: "Protected Lake Dot for Our Parks",
+    date: "Jun 24, 2025",
+    result: "Passed 4-1",
+    description:
+      "There was a push to sell a small city-owned parcel on Lake Dot. I voted to keep it and fold it into our parks planning instead. That land belongs to the people of Clermont. Once you sell lakefront property, you never get it back. I wasn't willing to let that happen on my watch.",
+  },
+  {
+    id: 1,
+    icon: "check",
+    vote: "yes",
+    title: "Two Consecutive Tax Cuts",
+    date: "Jul–Sep 2025",
+    result: "Passed 4-1",
+    description:
+      "Every time I sit down to vote on the budget, I think about the families in this city who are working hard and watching every dollar. Two years in a row, I voted to lower your taxes. That money stays in your pocket, where it belongs.",
+  },
+  {
+    id: 3,
+    icon: "check",
+    vote: "yes",
+    title: "Strengthened Landscaping Standards",
+    date: "Jul 29, 2025",
+    result: "Passed 4-1",
+    description:
+      "Clermont deserves to keep getting more beautiful, and I voted to make sure it does. I strengthened the landscaping and irrigation standards that anything new being built has to meet. More trees. More green space. Higher requirements. I raised the bar because your neighborhood, your park, your street should reflect the pride this community has in itself. Clermont isn't just maintaining its character. Under my watch, we're improving it.",
+  },
+  {
+    id: 2,
+    icon: "check",
+    vote: "yes",
+    title: "Kept Downtown Design Standards",
+    date: "Aug 26, 2025",
+    result: "Passed 4-1",
+    description:
+      "Clermont has a character worth protecting, and good planning is how you protect it. I voted to bring in a firm that specializes in form-based codes so we have clear, community-driven design standards in place. I want what gets built here to look like it belongs here, and I want our historic buildings and streetscapes preserved for the people who come after us. That starts with having the right rules written before the decisions get made.",
+  },
+  {
+    id: 9,
+    icon: "x",
+    vote: "no",
+    title: "Blocked US 27 Development",
+    date: "Aug 26, 2025",
+    result: "Passed 3-2 (Bill opposed)",
+    description:
+      "Safety and design standards exist to protect you. Full stop. When a development came before us along US 27 that didn't meet those standards, I voted no. I'm not going to approve something that cuts corners just to move things along. You deserve better than that.",
+  },
+  {
+    id: 19,
+    icon: "check",
+    vote: "yes",
+    title: "Your Right to Fly the Flag",
+    date: "Sep 23, 2025",
+    result: "Passed 4-1",
+    description:
+      "I voted to update our flagpole height ordinance so residents have more freedom to fly the American flag on their own property. This is America. If you want to honor your country in front of your home, your city government shouldn't be the thing standing in your way.",
+  },
+  {
     id: 13,
     icon: "check",
     vote: "yes",
@@ -126,6 +126,16 @@ const votes: Vote[] = [
     result: "Passed 5-0",
     description:
       "Wellness Way is one of the busiest parts of Clermont. I voted to get a new pumper fire engine stationed at Fire Station 5 to make sure every family in that corridor has the same fire protection as everyone else. When seconds matter, there is no acceptable excuse.",
+  },
+  {
+    id: 6,
+    icon: "check",
+    vote: "yes",
+    title: "ADU Affordability",
+    date: "Dec 2025–Jan 2026",
+    result: "Passed 5-0",
+    description:
+      "Housing costs are squeezing a lot of Clermont families. I voted to reduce the fees that make it harder to build small, affordable units on existing lots. This isn't about changing our neighborhoods. It's about making sure the people who love this city can afford to stay in it.",
   },
   {
     id: 14,
@@ -148,6 +158,26 @@ const votes: Vote[] = [
       "I voted to approve the Clermont Fire Department's 2026–2030 Strategic Plan. Our firefighters now have a roadmap for staffing, equipment, and response capacity, not just today but five years from now. I will hold the city accountable for executing every piece of it.",
   },
   {
+    id: 4,
+    icon: "check",
+    vote: "no",
+    title: "Voted to Defeat 4-Year Term Extensions",
+    date: "Mar 2026",
+    result: "Failed 2-3 (Bill's no vote defeated it)",
+    description:
+      "Mayor Tim Murry proposed letting council members go four years between elections. I voted no. You should get to weigh in on who represents you every two years, not every four. I want to earn your vote on a regular basis. If I'm not doing my job, you should be able to say so sooner rather than later.",
+  },
+  {
+    id: 10,
+    icon: "x",
+    vote: "no",
+    title: "Denied 7-Eleven on Wellness Way",
+    date: "Mar 2026",
+    result: "Failed 0-5",
+    description:
+      "Every single council member voted no on this one, and I was proud to be part of it. A gas station and car wash on Wellness Way isn't what that corridor is supposed to be. The community showed up and made their voice heard. We listened. That's how it's supposed to work.",
+  },
+  {
     id: 16,
     icon: "check",
     vote: "yes",
@@ -156,36 +186,6 @@ const votes: Vote[] = [
     result: "Passed 5-0",
     description:
       "Residents on Excalibur Road needed streetlights, and I voted to make sure the city covered that utility cost for up to 18 months while a long-term solution was worked out. Safe, well-lit streets aren't a luxury. Every neighborhood in Clermont deserves to feel safe after dark.",
-  },
-  {
-    id: 17,
-    icon: "check",
-    vote: "yes",
-    title: "Brought in a New City Attorney",
-    date: "Dec 10, 2024",
-    result: "Passed 4-1",
-    description:
-      "One of my first votes on the council was to bring in new legal leadership. I voted to appoint Christian Waugh as City Attorney, and it was one of the best decisions this council has made. The change in legal strategy saved Clermont taxpayers millions of dollars in pending litigation. Getting the right people in the right seats matters. Good decisions start with good counsel.",
-  },
-  {
-    id: 18,
-    icon: "check",
-    vote: "yes",
-    title: "Brought in a New City Manager",
-    date: "Dec 17, 2024",
-    result: "Passed 4-1",
-    description:
-      "Strong cities need strong leadership. I voted to bring Rick Van Wagner on as City Manager and see through a real transition plan, and today Rick serves as Clermont's permanent City Manager. The people of Clermont deserve a City Hall that runs well, responds quickly, and has steady, experienced hands at the wheel. That's exactly what we have now.",
-  },
-  {
-    id: 19,
-    icon: "check",
-    vote: "yes",
-    title: "Your Right to Fly the Flag",
-    date: "Sep 23, 2025",
-    result: "Passed 4-1",
-    description:
-      "I voted to update our flagpole height ordinance so residents have more freedom to fly the American flag on their own property. This is America. If you want to honor your country in front of your home, your city government shouldn't be the thing standing in your way.",
   },
 ];
 
@@ -209,36 +209,20 @@ export default function VotingRecord() {
 
   const selectedVote = votes.find((v) => v.id === selectedId) ?? null;
 
-  /* Split votes into two columns so each column reads top-to-bottom in order
-     (CSS grid would otherwise fill row-major, putting items 1,2 in row 1). */
-  const half = Math.ceil(votes.length / 2);
-  const col1 = votes.slice(0, half);
-  const col2 = votes.slice(half);
-
   return (
     <div>
-      {/* TWO-COLUMN ROW LIST — clean, no cards/boxes, just rows separated by
-          thin gold rules. Reads like a newspaper TOC. */}
+      {/* TWO-COLUMN ROW LIST — row-major fill so reading order is left→right
+          across rows (oldest first, newest last). Items are direct grid
+          children so CSS grid handles the natural row-major flow. */}
       <Reveal>
-        <div className="mx-auto max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-x-8 lg:gap-x-12">
-          <div className="border-t border-gold-400/40">
-            {col1.map((v) => (
-              <VoteRow
-                key={v.id}
-                v={v}
-                onClick={() => setSelectedId(v.id)}
-              />
-            ))}
-          </div>
-          <div className="border-t border-gold-400/40 md:border-t-0 mt-[-1px] md:mt-0">
-            {col2.map((v) => (
-              <VoteRow
-                key={v.id}
-                v={v}
-                onClick={() => setSelectedId(v.id)}
-              />
-            ))}
-          </div>
+        <div className="mx-auto max-w-5xl border-t border-gold-400/40 grid grid-cols-1 md:grid-cols-2 gap-x-8 lg:gap-x-12">
+          {votes.map((v) => (
+            <VoteRow
+              key={v.id}
+              v={v}
+              onClick={() => setSelectedId(v.id)}
+            />
+          ))}
         </div>
       </Reveal>
 
