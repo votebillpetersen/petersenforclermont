@@ -147,10 +147,7 @@ export default function AboutPage() {
       {/* HERO — full-width navy with dotted texture. Two-column on lg+:
           left = text (slides in from left), right = framed photo (fades in
           from right with delay). Min-h 70vh anchors the section height. */}
-      <section
-        className="relative overflow-hidden bg-navy-900 text-cream-50 h-[54vh] max-h-[540px] flex items-center"
-        style={{ height: "54vh", maxHeight: "540px" }}
-      >
+      <section className="relative overflow-hidden bg-navy-900 text-cream-50 flex items-center lg:h-[54vh] lg:max-h-[540px]">
         {/* Dot pattern — radial-gradient repeated. Sits behind everything. */}
         <div
           aria-hidden
@@ -240,13 +237,13 @@ export default function AboutPage() {
             <Reveal delay={60}>
               <div
                 aria-hidden
-                className="mx-auto mt-6 font-display text-gold-400 leading-none select-none text-8xl md:text-9xl"
+                className="mx-auto mt-6 font-display text-gold-400 leading-none select-none text-6xl md:text-8xl lg:text-9xl"
               >
                 &ldquo;
               </div>
             </Reveal>
             <Reveal delay={120}>
-              <blockquote className="-mt-4 md:-mt-6 font-display text-3xl md:text-4xl lg:text-5xl text-navy-900 leading-snug text-balance">
+              <blockquote className="mt-2 md:-mt-6 font-display text-2xl md:text-4xl lg:text-5xl text-navy-900 leading-snug text-balance px-2 md:px-0">
                 I have always believed that good government starts with
                 knowing the community it serves.
               </blockquote>
