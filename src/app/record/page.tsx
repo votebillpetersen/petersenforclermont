@@ -63,24 +63,24 @@ const sections: SectionData[] = [
     bg: "alt",
     items: [
       {
-        headline: "Voting Against Politicians Extending Their Own Terms",
-        body: "In March 2026, a proposal came before the council to extend council terms from two years to four. I voted no. My vote was the deciding vote. It failed 3-2. As I said publicly at the time: “Having elections every two years makes us accountable to the citizens. People have two years to give us their review.” Elected officials should face voters regularly. I will always vote against measures that insulate elected officials from the people they serve.",
+        headline: "Bringing in Fresh Leadership",
+        body: "In December 2024, I led the votes to appoint a new City Attorney and bring on a new City Manager. Today Rick Van Wagner serves as Clermont's permanent City Manager, and Clermont has leadership it can trust. I acted on that belief on day one. Going forward, I will hold every member of city leadership to the same standard: competence, integrity, and a commitment to serving residents first.",
       },
       {
         headline: "Supporting a Government Efficiency Audit",
         body: "In May 2025, I voted to cooperate with the Florida government efficiency audit process. If government is spending your money wisely, it has nothing to hide. I believe in full transparency and I welcome outside review. In my next term I will continue to support audits and any process that gives residents a clearer picture of how their money is being spent.",
       },
       {
-        headline: "Bringing in Fresh Leadership",
-        body: "In December 2024, I led the votes to appoint a new City Attorney and bring on a new City Manager. Today Rick Van Wagner serves as Clermont's permanent City Manager, and Clermont has leadership it can trust. I acted on that belief on day one. Going forward, I will hold every member of city leadership to the same standard: competence, integrity, and a commitment to serving residents first.",
+        headline: "Keeping Meetings Efficient and Focused",
+        body: "In June 2025, I made the motion to limit council reports to three minutes unless a majority votes to extend. Taxpayer time is valuable. Council meetings should be focused and productive. I will continue pushing for meetings that respect your time.",
+      },
+      {
+        headline: "Voting Against Politicians Extending Their Own Terms",
+        body: "In March 2026, a proposal came before the council to extend council terms from two years to four. I voted no. My vote was the deciding vote. It failed 3-2. As I said publicly at the time: “Having elections every two years makes us accountable to the citizens. People have two years to give us their review.” Elected officials should face voters regularly. I will always vote against measures that insulate elected officials from the people they serve.",
       },
       {
         headline: "Going to Tallahassee to Fight for Clermont",
         body: "I traveled to Tallahassee with fellow council members to meet with state legislators and advocate for Clermont's local funding priorities at the Florida League of Cities' Legislative Action Days. Most people never see the work that happens behind the scenes. I made sure Clermont's voice was heard at the state level, and I will keep doing it.",
-      },
-      {
-        headline: "Keeping Meetings Efficient and Focused",
-        body: "In June 2025, I made the motion to limit council reports to three minutes unless a majority votes to extend. Taxpayer time is valuable. Council meetings should be focused and productive. I will continue pushing for meetings that respect your time.",
       },
       {
         headline: "National Recognition for Financial Excellence",
@@ -96,6 +96,10 @@ const sections: SectionData[] = [
     bg: "default",
     items: [
       {
+        headline: "Standing Behind Our Police Officers",
+        body: "In September and November 2025, I voted to update the Police Officers Retirement Pension Plan to reflect collective bargaining changes and federal law updates. The men and women who protect Clermont deserve retirement security. I will continue to support competitive compensation and benefits for our law enforcement officers.",
+      },
+      {
         headline: "Putting a Fire Engine Where It Was Needed",
         body: "In October 2025, I voted to approve the purchase of a pumper fire engine for Fire Station 5 in the Wellness Way area. Response times there were too long. Families in that corridor deserve the same protection as everyone else. As Clermont continues to grow, I will make sure public safety infrastructure keeps pace. When seconds matter, there is no acceptable excuse.",
       },
@@ -110,10 +114,6 @@ const sections: SectionData[] = [
       {
         headline: "A Five-Year Plan for Our Fire Department",
         body: "In February 2026, I voted to approve the Clermont Fire Department's 2026-2030 Strategic Plan. Planning ahead means our firefighters have the resources and equipment they need not just today, but five years from now. I will hold the city accountable for executing that plan.",
-      },
-      {
-        headline: "Standing Behind Our Police Officers",
-        body: "In September and November 2025, I voted to update the Police Officers Retirement Pension Plan to reflect collective bargaining changes and federal law updates. The men and women who protect Clermont deserve retirement security. I will continue to support competitive compensation and benefits for our law enforcement officers.",
       },
     ],
   },
@@ -138,20 +138,20 @@ const sections: SectionData[] = [
     bg: "default",
     items: [
       {
-        headline: "Shaping Clermont's Future: The Right Way",
-        body: "In August 2025, I voted to approve a contract with DPZ CoDesign to develop a form-based code for downtown Clermont and guide the Comprehensive Plan update for the entire city. This is one of the most significant planning decisions Clermont will make in a generation. A strong Comprehensive Plan sets the rules for how our city grows: what gets built, where, and whether it fits the community we want to be. In my next term I will see that process through to completion, making sure residents have a real voice in shaping Clermont's future.",
-      },
-      {
-        headline: "The Florida Native Streetscape: Largest in the State",
-        body: "Downtown Clermont's Montrose Street has been transformed with Florida native plants: over 10 species that cost taxpayers less to maintain because they need far less water than what was there before. When the three phases are complete, Clermont will host the largest Florida native plant downtown streetscape in Florida. This project was covered by News 6 Orlando and represents what happens when a city invests in beauty, sustainability, and community pride.",
+        headline: "Supporting Recreation on Our Lakes",
+        body: "In April 2025, I voted to approve a use license with the Lake County Rowing Association. Clermont is known for its lakes and its athletic heritage. I will continue to support partnerships that activate our waterfront and make Clermont a destination for healthy, active living.",
       },
       {
         headline: "Protecting Green Space for Future Generations",
         body: "In June 2025, I voted to keep the City-owned Lake Dot parcel in parks planning rather than selling it immediately. Once green space is gone, it is gone. I voted to protect it. I will apply that same principle to every community asset. Before we sell what belongs to all of us, we owe it to residents to ask if we will regret that decision.",
       },
       {
-        headline: "Supporting Recreation on Our Lakes",
-        body: "In April 2025, I voted to approve a use license with the Lake County Rowing Association. Clermont is known for its lakes and its athletic heritage. I will continue to support partnerships that activate our waterfront and make Clermont a destination for healthy, active living.",
+        headline: "Shaping Clermont's Future: The Right Way",
+        body: "In August 2025, I voted to approve a contract with DPZ CoDesign to develop a form-based code for downtown Clermont and guide the Comprehensive Plan update for the entire city. This is one of the most significant planning decisions Clermont will make in a generation. A strong Comprehensive Plan sets the rules for how our city grows: what gets built, where, and whether it fits the community we want to be. In my next term I will see that process through to completion, making sure residents have a real voice in shaping Clermont's future.",
+      },
+      {
+        headline: "The Florida Native Streetscape: Largest in the State",
+        body: "Downtown Clermont's Montrose Street has been transformed with Florida native plants: over 10 species that cost taxpayers less to maintain because they need far less water than what was there before. When the three phases are complete, Clermont will host the largest Florida native plant downtown streetscape in Florida. This project was covered by News 6 Orlando and represents what happens when a city invests in beauty, sustainability, and community pride.",
       },
       {
         headline: "Parks, Festivals, and the Events That Define Clermont",
