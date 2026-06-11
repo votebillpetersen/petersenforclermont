@@ -39,17 +39,24 @@ const LAKE_SOE_URL =
 
 const keyDates = [
   {
-    label: "Request Mail Ballot",
-    date: "Now Open",
+    label: "Mail Ballot Request Deadline",
+    date: "Date to be confirmed",
     detail:
-      "Lake County voters can request a Vote-by-Mail ballot from the Supervisor of Elections at any time. Request early so your ballot arrives with time to spare.",
+      "Florida law requires mail ballot requests to be received by the Lake County Supervisor of Elections no later than 5:00 PM on the 12th day before Election Day. Request early so your ballot arrives with time to spare.",
     cta: { href: LAKE_SOE_URL, label: "Request a mail ballot" },
   },
   {
-    label: "Early Voting",
-    date: "Dates coming soon",
+    label: "Early Voting Begins",
+    date: "Date to be confirmed",
     detail:
-      "Early voting locations and hours are published by the Lake County Supervisor of Elections about 30 days before Election Day. We will list every Clermont-area early voting site here as soon as it is announced.",
+      "Lake County will announce the first day of early voting and the list of in-person early voting sites about 30 days before Election Day. We will post each Clermont-area site here as soon as it is published.",
+    cta: { href: LAKE_SOE_URL, label: "Check early voting info" },
+  },
+  {
+    label: "Early Voting Ends",
+    date: "Date to be confirmed",
+    detail:
+      "Early voting closes on the Saturday or Sunday before Election Day. Final dates and hours are set by the Lake County Supervisor of Elections and will be posted here once available.",
     cta: { href: LAKE_SOE_URL, label: "Check early voting info" },
   },
   {
@@ -134,7 +141,7 @@ export default function VotePage() {
             Mark your calendar.
           </h2>
         </Reveal>
-        <div className="mt-10 grid gap-5 md:gap-6 md:grid-cols-3">
+        <div className="mt-10 grid gap-5 md:gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {keyDates.map((d, i) => (
             <Reveal key={d.label} delay={i * 100}>
               <div className="h-full rounded-2xl bg-white p-7 shadow-card hover:shadow-card-hover transition flex flex-col">
