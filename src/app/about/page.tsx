@@ -208,14 +208,14 @@ export default function AboutPage() {
                 aria-hidden
                 className="absolute -top-3 -right-3 md:-top-4 md:-right-4 h-2/3 w-2/3 -z-10 rounded-2xl border-2 border-gold-400/50 bg-gold-400/[0.04]"
               />
-              <div className="relative w-[160px] sm:w-[185px] md:w-[210px] lg:w-[240px] aspect-[4/5] overflow-hidden rounded-3xl ring-4 ring-gold-400/60 shadow-2xl bg-gradient-to-b from-navy-800 to-navy-950">
+              <div className="relative w-[220px] sm:w-[240px] md:w-[260px] lg:w-[280px] aspect-[4/5] overflow-hidden rounded-3xl ring-4 ring-gold-400/60 shadow-2xl bg-gradient-to-b from-navy-800 to-navy-950">
                 <Image
                   src="/bill-petersen.png"
                   alt="Bill Petersen Clermont City Council Seat 5 candidate photo"
                   fill
                   priority
-                  sizes="(min-width: 1024px) 240px, (min-width: 768px) 210px, 160px"
-                  className="object-contain object-bottom"
+                  sizes="(min-width: 1024px) 280px, (min-width: 768px) 260px, (min-width: 640px) 240px, 220px"
+                  className="object-cover object-top"
                 />
               </div>
             </div>
