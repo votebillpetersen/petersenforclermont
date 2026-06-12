@@ -4,15 +4,15 @@ import Reveal from "@/components/Reveal";
 
 export const metadata: Metadata = {
   title:
-    "Vote — Primary Election Day August 18, 2026 | Bill Petersen for Clermont",
+    "Vote — Election Day November 3, 2026 | Bill Petersen for Clermont",
   description:
-    "How to vote in the Clermont City Council Seat 5 Primary Election on Tuesday, August 18, 2026. Request a mail ballot, find your precinct, and learn about early voting in Lake County, Florida.",
+    "How to vote in the Clermont City Council Seat 5 General Election on Tuesday, November 3, 2026. Request a mail ballot, find your precinct, and learn about early voting in Lake County, Florida.",
   alternates: { canonical: "/vote" },
   openGraph: {
     title:
-      "Vote — Primary Election Day August 18, 2026 | Bill Petersen for Clermont",
+      "Vote — Election Day November 3, 2026 | Bill Petersen for Clermont",
     description:
-      "Make your voice heard in the Clermont City Council Seat 5 Primary Election on August 18, 2026. Mail ballot, early voting, and Election Day info.",
+      "Make your voice heard in the Clermont City Council Seat 5 General Election on November 3, 2026. Mail ballot, early voting, and Election Day info.",
     url: "/vote",
     type: "website",
     images: [
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Vote — Primary Election Day August 18, 2026 | Bill Petersen for Clermont",
+      "Vote — Election Day November 3, 2026 | Bill Petersen for Clermont",
     description:
-      "Make your voice heard in the Clermont City Council Seat 5 Primary Election on August 18, 2026.",
+      "Make your voice heard in the Clermont City Council Seat 5 General Election on November 3, 2026.",
     images: ["/bill-petersen.png"],
   },
 };
@@ -43,42 +43,42 @@ const SOE_REGISTER_URL = "https://www.lakevotes.gov/205";
 const keyDates = [
   {
     label: "Mail Ballots Mailed",
-    date: "Friday, July 10, 2026",
+    date: "Friday, September 25, 2026",
     detail:
       "Lake County begins mailing Vote-by-Mail ballots to every voter with an active request on file. Confirm your request is on file with the Supervisor of Elections.",
     cta: { href: SOE_VBM_URL, label: "Check or update my request" },
   },
   {
     label: "Voter Registration Deadline",
-    date: "Monday, July 20, 2026",
+    date: "Monday, October 5, 2026",
     detail:
-      "Last day to register to vote, change parties, or update your registration before the Primary Election. Register online at lakevotes.gov.",
+      "Last day to register to vote or update your registration before the General Election. Register online at lakevotes.gov.",
     cta: { href: SOE_REGISTER_URL, label: "Register to vote" },
   },
   {
+    label: "Early Voting Begins",
+    date: "Monday, October 19, 2026 · 10 AM – 6 PM daily",
+    detail:
+      "In-person early voting opens at designated Lake County sites and runs through October 31. Polls are open 10:00 AM – 6:00 PM every day during the early voting window.",
+    cta: { href: SOE_EARLY_VOTING_URL, label: "Check early voting info" },
+  },
+  {
     label: "Mail Ballot Request Deadline",
-    date: "Thursday, August 6, 2026 · by 5:00 PM",
+    date: "Thursday, October 22, 2026 · by 5:00 PM",
     detail:
       "Mail ballot requests must be received by the Lake County Supervisor of Elections by 5:00 PM. Request earlier if you can so your ballot arrives with time to spare.",
     cta: { href: SOE_VBM_URL, label: "Request a mail ballot" },
   },
   {
-    label: "Early Voting Begins",
-    date: "Saturday, August 8, 2026 · 10 AM – 6 PM daily",
-    detail:
-      "In-person early voting opens at designated Lake County sites and runs through August 15. Polls are open 10:00 AM – 6:00 PM every day during the early voting window.",
-    cta: { href: SOE_EARLY_VOTING_URL, label: "Check early voting info" },
-  },
-  {
     label: "Early Voting Ends",
-    date: "Saturday, August 15, 2026",
+    date: "Saturday, October 31, 2026",
     detail:
       "Last day of in-person early voting in Lake County. After this, the next opportunity to vote in person is your assigned precinct on Election Day.",
     cta: { href: SOE_EARLY_VOTING_URL, label: "Check early voting info" },
   },
   {
-    label: "Primary Election Day",
-    date: "Tuesday, August 18, 2026 · 7 AM – 7 PM",
+    label: "Election Day",
+    date: "Tuesday, November 3, 2026 · 7 AM – 7 PM",
     detail:
       "Polls are open 7:00 AM – 7:00 PM. Vote at your assigned precinct. Bring a valid Florida photo ID with a signature.",
     cta: { href: SOE_VOTER_SEARCH_URL, label: "Find your precinct" },
@@ -94,12 +94,12 @@ const waysToVote = [
   {
     icon: "⏱",
     title: "Vote Early, in Person",
-    body: "Vote at any designated Lake County early voting site from August 8 through August 15, 2026, 10:00 AM – 6:00 PM each day. No waiting in line on Election Day.",
+    body: "Vote at any designated Lake County early voting site from October 19 through October 31, 2026, 10:00 AM – 6:00 PM each day. No waiting in line on Election Day.",
   },
   {
     icon: "✓",
     title: "Vote on Election Day",
-    body: "On Tuesday, August 18, 2026, vote at your assigned precinct between 7:00 AM and 7:00 PM. Bring a valid photo ID with a signature.",
+    body: "On Tuesday, November 3, 2026, vote at your assigned precinct between 7:00 AM and 7:00 PM. Bring a valid photo ID with a signature.",
   },
 ];
 
@@ -115,12 +115,12 @@ export default function VotePage() {
             </div>
             <h1 className="mt-3 font-display text-5xl md:text-6xl leading-tight text-balance text-cream-50">
               Make Your Voice Heard —{" "}
-              <span className="text-gold-300">August 18, 2026</span>.
+              <span className="text-gold-300">November 3, 2026</span>.
             </h1>
             <p className="mt-5 max-w-2xl text-lg text-cream-50/85 leading-relaxed">
-              The Clermont City Council Seat 5 Primary Election is{" "}
+              The Clermont City Council Seat 5 General Election is{" "}
               <span className="font-semibold text-cream-50">
-                Tuesday, August 18, 2026
+                Tuesday, November 3, 2026
               </span>
               . Here is everything you need to vote by mail, vote early, or vote
               on Election Day.
@@ -278,7 +278,7 @@ export default function VotePage() {
         <div className="container-wide text-center">
           <Reveal>
             <p className="font-display text-2xl md:text-3xl text-cream-50 text-balance">
-              On August 18th, send Bill Petersen back to Clermont City Council
+              On November 3rd, send Bill Petersen back to Clermont City Council
               Seat 5.
             </p>
             <div className="mt-7 flex flex-wrap justify-center gap-3">

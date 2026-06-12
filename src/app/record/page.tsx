@@ -229,7 +229,7 @@ export default function RecordPage() {
             <div className="absolute -bottom-16 -left-12 h-64 w-64 rounded-full bg-gold-400/10 blur-3xl pointer-events-none" />
             <div className="relative max-w-3xl">
               <div className="text-[11px] uppercase tracking-[0.22em] text-gold-300 font-semibold">
-                Re-Elect · Primary Aug 18, 2026
+                Re-Elect · Nov 3, 2026
               </div>
               <h2 className="mt-3 font-display text-3xl md:text-5xl text-balance text-cream-50">
                 Real results. Real accountability. Real commitment to Clermont.
@@ -237,7 +237,7 @@ export default function RecordPage() {
               <p className="mt-5 text-lg text-cream-50/85 leading-relaxed">
                 If you believe Clermont deserves a council member who shows up,
                 tells the truth, and puts residents first. I am asking for your
-                vote on August 18, 2026.
+                vote on November 3, 2026.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <Link

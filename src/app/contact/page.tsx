@@ -77,10 +77,10 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <dt className="text-navy-500 uppercase tracking-wider text-[10px]">
-                    Primary Election Day
+                    Election Day
                   </dt>
                   <dd className="mt-1 text-navy-900 font-semibold">
-                    Tuesday, August 18, 2026
+                    Tuesday, November 3, 2026
                   </dd>
                 </div>
                 <div>

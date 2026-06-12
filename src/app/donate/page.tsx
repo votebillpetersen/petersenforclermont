@@ -5,12 +5,12 @@ import DonorboxWidget from "@/components/DonorboxWidget";
 export const metadata: Metadata = {
   title: "Donate to Bill Petersen | Clermont City Council Seat 5",
   description:
-    "Contribute to the Bill Petersen campaign for Clermont City Council Seat 5. Local campaigns are powered by neighbors. Vote in the Primary Election — August 18, 2026.",
+    "Contribute to the Bill Petersen campaign for Clermont City Council Seat 5. Local campaigns are powered by neighbors. Vote in the General Election — November 3, 2026.",
   alternates: { canonical: "/donate" },
   openGraph: {
     title: "Donate to Bill Petersen | Clermont City Council Seat 5",
     description:
-      "Contribute to the Bill Petersen campaign for Clermont City Council Seat 5. Vote in the Primary Election — August 18, 2026.",
+      "Contribute to the Bill Petersen campaign for Clermont City Council Seat 5. Vote in the General Election — November 3, 2026.",
     url: "/donate",
     type: "website",
     images: [
@@ -56,7 +56,7 @@ export default function DonatePage() {
             <p className="mt-5 max-w-2xl text-lg text-cream-50/85 leading-relaxed">
               Local campaigns are powered by neighbors. Whether it&apos;s $25 or
               $500, your contribution helps us reach more Clermont voters before
-              Primary Election Day, August 18, 2026.
+              Election Day, November 3, 2026.
             </p>
           </Reveal>
         </div>

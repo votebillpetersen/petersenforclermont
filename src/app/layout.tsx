@@ -21,11 +21,11 @@ export const metadata: Metadata = {
   metadataBase: SITE_URL,
   title: {
     default:
-      "Re-Elect Bill Petersen | Clermont City Council Seat 5 | Primary August 18, 2026",
+      "Re-Elect Bill Petersen | Clermont City Council Seat 5 | General Election November 3, 2026",
     template: "%s",
   },
   description:
-    "Re-elect William Bill Petersen for Clermont City Council Seat 5. Protecting our quality of life, cutting taxes, and keeping Clermont the city we love. Vote in the Primary Election — August 18, 2026.",
+    "Re-elect William Bill Petersen for Clermont City Council Seat 5. Protecting our quality of life, cutting taxes, and keeping Clermont the city we love. Vote in the General Election — November 3, 2026.",
   keywords: [
     "Bill Petersen",
     "William Bill Petersen",
@@ -33,9 +33,9 @@ export const metadata: Metadata = {
     "Clermont City Council Seat 5",
     "Clermont Florida",
     "Clermont elections",
-    "August 18 2026",
-    "Primary Election",
-    "Clermont Primary Election",
+    "November 3 2026",
+    "General Election",
+    "Clermont General Election",
     "Re-Elect Bill Petersen",
     "Petersen for Clermont",
     "Protecting Our Quality of Life",
@@ -58,9 +58,9 @@ export const metadata: Metadata = {
     locale: "en_US",
     siteName: "Re-Elect Bill Petersen for Clermont City Council Seat 5",
     title:
-      "Re-Elect Bill Petersen | Clermont City Council Seat 5 | Primary August 18, 2026",
+      "Re-Elect Bill Petersen | Clermont City Council Seat 5 | General Election November 3, 2026",
     description:
-      "Re-elect William Bill Petersen for Clermont City Council Seat 5. Protecting our quality of life, cutting taxes, and keeping Clermont the city we love. Vote in the Primary Election — August 18, 2026.",
+      "Re-elect William Bill Petersen for Clermont City Council Seat 5. Protecting our quality of life, cutting taxes, and keeping Clermont the city we love. Vote in the General Election — November 3, 2026.",
     url: "/",
     images: [
       {
@@ -74,9 +74,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Re-Elect Bill Petersen | Clermont City Council Seat 5 | Primary August 18, 2026",
+      "Re-Elect Bill Petersen | Clermont City Council Seat 5 | General Election November 3, 2026",
     description:
-      "Re-elect William Bill Petersen for Clermont City Council Seat 5. Vote in the Primary Election — August 18, 2026.",
+      "Re-elect William Bill Petersen for Clermont City Council Seat 5. Vote in the General Election — November 3, 2026.",
     images: ["/bill-petersen.png"],
   },
   alternates: {

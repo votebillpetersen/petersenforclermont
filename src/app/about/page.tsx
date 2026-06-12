@@ -449,7 +449,7 @@ export default function AboutPage() {
                       Protecting Our Quality of Life
                     </span>
                   </li>
-                  <li>• On the ballot: Primary Election Day, August 18, 2026</li>
+                  <li>• On the ballot: Election Day, November 3, 2026</li>
                 </ul>
                 <Link
                   href="/volunteer"

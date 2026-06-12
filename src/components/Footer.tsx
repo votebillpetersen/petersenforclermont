@@ -49,13 +49,13 @@ export default function Footer() {
             for Clermont, Florida City Council Seat 5 on
             <span className="text-gold-300 font-semibold">
               {" "}
-              August 18, 2026
+              November 3, 2026
             </span>
             .
           </p>
           <div className="mt-6 inline-flex items-center gap-2 rounded-full border border-gold-400/40 px-4 py-2 text-sm text-gold-200">
             <span className="h-2 w-2 rounded-full bg-gold-400 animate-pulse" />
-            Primary Election Day · Aug 18, 2026
+            Election Day · Nov 3, 2026
           </div>
         </div>
 
